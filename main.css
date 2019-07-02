@@ -1,17 +1,30 @@
-<html>
-    <head>
-         <title> Satya Sandeep </title>
-         <meta content="width=device-width, initial-scale=1" name="viewport">
-         <meta name=theme-color" content="#1bbc9b" />
-         <link hreff="css/main.css" rel="stylesheet">
-    </head>
-    <body>
-         <header class="site-header">
-             <img class="profile-pic" src=https://drop.ndtv.com/albums/AUTO/mg-hector/9.jpg>
-             <div class="site-header-content">
-                 <h1>Hi, I am Satya, I live in Tirupati</h1>
-                 <h3> I am learning css </h3>
-             </div>
-         </header>
-    </body>
-</html>
+.site-header {
+    background-color: #1bbc9b;
+    color: #ecfdf9;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    align-items: center;
+}
+
+.site-header-content {
+    margin: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    align-self: center;
+    box-shadow: #0a8269 2px 5px 5px;
+}
+
+.course-link{
+    color: #ecfdf9;
+}
+
+body {
+    margin: 0;
+}
