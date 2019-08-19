@@ -1,4 +1,4 @@
-.site-header {
+.main {
     background-color: #1bbc9b;
     color: #ecfdf9;
     height: 100vh;
@@ -9,12 +9,13 @@
     align-items: center;
 }
 
-.site-header-content {
+.body {
     margin: 10px;
+    text-align: center;
 }
 
 .profile-pic {
-    border-radius: 50%;
+    border-radius: 10%;
     height:200px;
     width: 200px;
     align-self: center;
