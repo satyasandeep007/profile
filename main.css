@@ -1,31 +1,53 @@
 .main {
-    background-color: #1bbc9b;
-    color: #ecfdf9;
-    height: 100vh;
-    font-family: monospace;
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-    align-items: center;
-}
-
-.body {
-    margin: 10px;
-    text-align: center;
-}
+  background-color: #1bbc9b; 
+  color: #ecfdf9;
+  height: 100%;
+  width:100%;
+  
+  display: flex;
+  flex-direction:column;
+  justify-content: center 
+  align-items: center;
+  } 
+  
+.body { 
+ margin: 10px; 
+ text-align : center;
+ } 
 
 .profile-pic {
-    border-radius: 10%;
-    height:200px;
-    width: 200px;
-    align-self: center;
-    box-shadow: #0a8269 2px 5px 5px;
+ border-radius: 0%;
+ margin-top:0%;
+ 
+   height:200px;
+   width: 200px; 
+   align-self: center;
+} 
+.list{
+    text-decoration:none ;
+    
+    margin-top:0%;
+}
+.list ul{
+   display:flex; 
+    text-decoration:none ;
+    list-style:none ;
+    flex-direction:row;
+    padding:2%;
 }
 
-.course-link{
-    color: #ecfdf9;
+.list ul li{
+    color:white;
+    padding-left:6%;
 }
 
-body {
-    margin: 0;
+.b1{
+   margin-left:0%;
+   padding:2%;
+   margin-bottom:5%;
 }
+.b2{
+   margin-bottom:5%;
+   padding:2%;
+}
+ 
